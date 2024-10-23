@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Greeting from "./Greeting";
 import Form from "./Form";
+import ListOutput from "./ListOutput";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <ListOutput />
     </>
   );
 }
